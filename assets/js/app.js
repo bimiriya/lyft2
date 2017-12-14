@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+    console.log("las flechas solo funcionan una vez, para continuar el flujo se debe refrescar la página y comenzar de nuevo");
+    console.log("se puede probar la deshabilitación de los botones solo una vez, para continuar a las secciones siguientes se debe refrescar la pagina y comenzar de nuevo");
+
     $("#splash").append("<div class='container'><div class='row'><div class='col-xs-8 col-xs-offset-2'><div id='splash-img'></div></div></div></div>").delay(2000).fadeOut("slow");
     $("#home").append("<div class='container'><div class='row'><div class='col-xs-4 col-xs-offset-4 text-center'><div id='home-header-img'></div></div></div><div class='row'><div class='col-xs-10 col-xs-offset-1 text-center'><div id='home-img'></div></div></div><div class='row'><div class='col-xs-6 text-right'><button class='btn btn-default'>LOG IN</button></div><div class='col-xs-6'><button class='btn btn-default' id='signup'>SIGN UP</button></div></div></div>");
     $("#home").delay(4000).show();
