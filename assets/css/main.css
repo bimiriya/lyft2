@@ -1,0 +1,16 @@
+#splash {
+    width: 100%;
+    background: linear-gradient(#76278F,#f50087);
+    height: 100vh;
+    padding-top: 40vh;
+}
+
+#splash h1 {
+    margin: 0;
+    font-size: 60px;
+    color: white;
+}
+
+#home {
+    display: none;
+}
