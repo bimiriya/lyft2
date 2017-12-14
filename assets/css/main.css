@@ -1,16 +1,137 @@
+.lyft {
+    font-family: 'Work Sans', sans-serif;
+}
+
 #splash {
     width: 100%;
     background: linear-gradient(#76278F,#f50087);
     height: 100vh;
-    padding-top: 40vh;
+    padding-top: 35vh;
+    position: absolute;
+    z-index: 4;
 }
 
-#splash h1 {
-    margin: 0;
-    font-size: 60px;
-    color: white;
+#splash-img {
+    background-image: url(../images/logo-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
 }
 
 #home {
-    display: none;
+    background-image: url(../images/home.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+#home-header-img {
+    background-image: url(../images/logo-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+#home-img {
+    background-image: url(../images/lyftlyfe.png);
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    margin: 5vh 0 15vh;
+}
+
+#home button {
+    padding: 20px 30px;
+    color: white;
+    border: 3px solid white;
+    background: transparent;
+    font-size: 20px;
+}
+
+.header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    margin-bottom: 10vh;
+}
+
+#signup-page select {
+    height: 10vh;
+    padding: 5%;
+    background: white;
+    outline: none;
+    border-radius: 5px;
+}
+
+#signup-page input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    outline: none;
+    height: 10vh;
+    width: 70%;
+    font-size: 2em;
+}
+
+#signup-page h2 {
+    font-size: 6em;
+}
+
+#signup-page h4 {
+    font-size: 2.5em;
+}
+
+#signup-page p {
+    margin: 5vh 0;
+    font-size: 1.5em;
+}
+
+.next-btn {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 5vh 0;
+    font-size: 2em;
+    background: #f50087;
+    border: none;
+    color: white;
+}
+
+.glyphicon-circle-arrow-left {
+    position: absolute;
+    left: 1vh;
+    top: 2vh;
+    font-size: 10vh;
+    color: #f50087;
+}
+
+#verify-code h2 {
+    font-size: 2.5em;
+}
+
+#verify-code input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    outline: none;
+    height: 10vh;
+    width: 20%;
+    font-size: 4em;
+}
+
+#verify-code span {
+    font-size: 4em;
+    margin: 0 2vh;
+    color: #f50087;
+}
+
+#verify-code p {
+    margin: 5vh 0;
+    font-size: 1.5em;
+}
+
+#verify-code button:first-child {
+    padding: 2vh 5vh;
+    font-size: 2em;
+    border: 3px solid #f50087;
+    border-radius: 4px;
+    background: white;
 }
